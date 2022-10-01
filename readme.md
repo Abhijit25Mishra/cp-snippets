@@ -26,7 +26,7 @@ If you feel I have missed out on some important things, be sure to create an iss
 ```bash
 git clone <<copied link>>
 ```
-10.Refer to the explanation folder; the code or snippets and the logic behind them are given there. 
+10. Refer to the explanation folder; the code or snippets and the logic behind them are given there. 
   
 
 ## Contributing
