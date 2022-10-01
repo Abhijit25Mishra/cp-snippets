@@ -1,6 +1,6 @@
 # Cp-snippets
 
-This is an open source project. It contains a collection of boiler plate code for competative programming contest such as Google-kickstart, codejam, codeforces-contest, codechef-contest, etc. 
+This is an open source project. It contains a collection of boilerplate code for competitive programming contest such as kickstart, codejam, codeforces-contest, codechef-contest, etc. 
 
 ## Motivation for the project 
 
