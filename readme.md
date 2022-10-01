@@ -31,4 +31,7 @@ git clone <<copied link>>
 
 ## Contributing
 
-Please refer to (CONTRIBUTING.md) for more details.
+Please refer to (/CONTRIBUTING.md) for more details.
+
+## Join our Discord:
+Join [Our Discord](https://discord.gg/y9cepc7wsT).
