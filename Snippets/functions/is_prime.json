@@ -7,7 +7,7 @@
             "{\r",
             "   if (n < 2)\r",
             "      return false;\r",
-            "   for (int i = 2; i * i <= n; i++)\r",
+            "   for (int i = 2; i <= sqrt(n) + 1; i++)\r",
             "   {\r",
             "       if (n % i == 0)\r",
             "          return false;\r",
