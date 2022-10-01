@@ -31,4 +31,4 @@ git clone <<copied link>>
 
 ## Contributing
 
-Please refer to ((link)) for more details.
+Please refer to (CONTRIBUTING.md) for more details.
