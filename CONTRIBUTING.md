@@ -20,7 +20,6 @@ All types of contributions are encouraged and valued. See the [Table of Contents
   - [Reporting Bugs](#reporting-bugs)
   - [Suggesting Enhancements](#suggesting-enhancements)
   - [Your First Code Contribution](#your-first-code-contribution)
-  - [Improving The Documentation](#improving-the-documentation)
 - [Styleguides](#styleguides)
   - [Commit Messages](#commit-messages)
 - [Join The Project Team](#join-the-project-team)
@@ -36,32 +35,19 @@ to <abhijitmishra20bcs94@iiitkottayam.ac.in>.
 
 ## I Have a Question
 
-> If you want to ask a question, we assume that you have read the available [Documentation]().
+> If you want to ask a question.
 
 Before you ask a question, it is best to search for existing [Issues](https://github.com/Abhijit25Mishra/cp-snippets/issues) that might help you. In case you have found a suitable issue and still need clarification, you can write your question in this issue. It is also advisable to search the internet for answers first.
 
 If you then still feel the need to ask a question and need clarification, we recommend the following:
 
+- Ask the maintainer on [discord](https://discord.gg/y9cepc7wsT).
 - Open an [Issue](https://github.com/Abhijit25Mishra/cp-snippets/issues/new).
 - Provide as much context as you can about what you're running into.
 - Provide project and platform versions (nodejs, npm, etc), depending on what seems relevant.
+- Reach out to 
 
 We will then take care of the issue as soon as possible.
-
-<!--
-You might want to create a separate issue tag for questions and include it in this description. People should then tag their issues accordingly.
-
-Depending on how large the project is, you may want to outsource the questioning, e.g. to Stack Overflow or Gitter. You may add additional contact and information possibilities:
-- IRC
-- Slack
-- Gitter
-- Stack Overflow tag
-- Blog
-- FAQ
-- Roadmap
-- E-Mail List
-- Forum
--->
 
 ## I Want To Contribute
 
@@ -69,6 +55,8 @@ Depending on how large the project is, you may want to outsource the questioning
 > When contributing to this project, you must agree that you have authored 100% of the content, that you have the necessary rights to the content and that the content you contribute may be provided under the project license.
 
 ### Reporting Bugs
+
+> create an issue regarding it.
 
 <!-- omit in toc -->
 #### Before Submitting a Bug Report
@@ -134,26 +122,15 @@ Enhancement suggestions are tracked as [GitHub issues](https://github.com/Abhiji
 <!-- You might want to create an issue template for enhancement suggestions that can be used as a guide and that defines the structure of the information to be included. If you do so, reference it here in the description. -->
 
 ### Your First Code Contribution
-<!-- TODO
-include Setup of env, IDE and typical getting started instructions?
 
--->
+> This is particularly very easy. follow the steps given in the readme.md to set up the folder then search what you want to edit or create and be sure to change the same file name in the explaination folder for other people to get a better understanding.
 
-### Improving The Documentation
-<!-- TODO
-Updating, improving and correcting the documentation
-
--->
 
 ## Styleguides
 ### Commit Messages
-<!-- TODO
 
--->
+Commits messages must be meaningful and easy to understand. Also try to make it as concise as possilbe.
 
 ## Join The Project Team
-<!-- TODO -->
 
-<!-- omit in toc -->
-## Attribution
-This guide is based on the **contributing-gen**. [Make your own](https://github.com/bttger/contributing-gen)!
+Join the [discord server](https://discord.gg/y9cepc7wsT). 
