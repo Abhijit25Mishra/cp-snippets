@@ -1,0 +1,21 @@
+{
+    "is_prime function": {
+        "prefix": "is_prime",
+        "body": [
+            "// Code Author: Athar Mujtaba Wani (github:@waniathar)\r",
+            "bool is_prime(int x)\r",
+            "{\r",
+            "   if (n < 2)\r",
+            "      return false;\r",
+            "   for (int i = 2; i <= sqrt(n) + 1; i++)\r",
+            "   {\r",
+            "       if (n % i == 0)\r",
+            "          return false;\r",
+            "   }\r",
+            "   return true;\r",
+            "}\r"
+        ],  
+        "description": "Checks if a number is prime or not, if it is, returns true, else returns false"
+    }
+    
+}
