@@ -29,7 +29,7 @@ git clone <<copied link>>
 10. Refer to the explanation folder; the code or snippets and the logic behind them are given there. 
   
 ## Code of Conduct
-Please read our [Code of Conduct](https://github.com/Abhijit25Mishra/cp-snippets/blob/master/CONTRIBUTING.md)
+Please read our [Code of Conduct](https://github.com/Abhijit25Mishra/cp-snippets/blob/master/CODE_OF_CONDUCT.md)
 ## For Contribution
 Please refer to ([Contributing guidelines](https://github.com/Abhijit25Mishra/cp-snippets/blob/master/CONTRIBUTING.md)) for more details.
 ## Join our Discord:
