@@ -1,0 +1,40 @@
+{
+    "Rabin-Karp Algorithm by @flow6979": {
+      "prefix": "Rabin",
+      "body": [
+        "void rabin_Karp(string S, string P){",
+        "   int Ns = S.length();",
+        "   int Np = P.length();",
+        "",
+        "   int prime = 31;",
+        "   int mod = 1e9 + 9; //comment it out if mod is written outside this function",
+        "    ",
+        "   // Calculating the power raise to the taken prime",
+        "   vector<long long> p_pow(Ns);",
+        "   p_pow[0] = 1; ",
+        "   for (int i = 1; i < Ns; i++) {",
+        "         p_pow[i] = (p_pow[i-1] * prime) % mod;",
+        "    }",
+        "       ",
+        "    vector<long long> h(Ns + 1, 0); ",
+        "    for (int i = 0; i < Ns; i++){",
+        "        h[i+1] = (h[i] + (S[i] - 'a' + 1) * p_pow[i]) % mod;",
+        "     }",
+        "    ",
+        "    // Calculating the hash value of P ",
+        "    long long hash_P = 0; ",
+        "    for (int i = 0; i < Np; i++) {",
+        "        hash_P = (hash_P + (P[i] - 'a' + 1) * p_pow[i]) % mod; ",
+        "    }",
+        "      ",
+        "    //sliding the pattern and checking for the corresponding hash value to match with the hash value of the given pattern",
+        "    for (int i = 0; i + Np - 1 < Ns; i++) { ",
+        "        long long curr_hash = (h[i+Np] + mod - h[i]) % mod; ",
+        "        if (curr_hash == hash_P * p_pow[i] % mod)",
+        "            cout<<\"pattern occurs in the given string at index \"<<i<<endl;",
+        "    }",
+        "}"
+      ],
+      "description": "Rabin-Karp Algorithm by @flow6979"
+    }
+}
