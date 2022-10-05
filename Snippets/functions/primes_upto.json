@@ -1,0 +1,24 @@
+{"Get Primes": {
+		"prefix": "get-primes-upto",
+		"body": [
+			"vector<int> get_primes_upto(int n)",
+			"{",
+			"\tvector<int> composite(n);",
+			"\tcomposite[0] = 1;",
+			"\tfor(int i = 2; i <= n; i++)",
+			"\t{",
+			"\t\tif(composite[i-1])",
+			"\t\t\tcontinue;",
+			"\t\tfor(int j = 2 * i; j <= n; j += i)",
+			"\t\t\tcomposite[j-1] = 1;",
+			"\t}",
+			"\tvector<int> primes;",
+			"\tfor(int i = 1; i <= n; i++)",
+			"\t\tif(!composite[i-1])",
+			"\t\t\tprimes.push_back(i);",
+			"\treturn primes;",
+			"}"
+		],
+		"description": "Get primes upto an integer n"
+	}
+}
