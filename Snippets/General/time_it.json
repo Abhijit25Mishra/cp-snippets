@@ -1,0 +1,26 @@
+{
+        "Time it":{
+        "prefix": "time-it",
+        "body": [
+            "auto start_time = chrono::high_resolution_clock::now();",
+            "",
+            "auto end_time = chrono::high_resolution_clock::now();",
+            "chrono::high_resolution_clock::duration time_duration = end_time - start_time;",
+            "",
+            "auto h  = chrono::duration_cast<chrono::hours>(time_duration);",
+            "time_duration -= h;",
+            "auto m  = chrono::duration_cast<chrono::minutes>(time_duration);",
+            "time_duration -= m;",
+            "auto s  = chrono::duration_cast<chrono::seconds>(time_duration);",
+            "time_duration -= s;",
+            "auto ms = chrono::duration_cast<chrono::milliseconds>(time_duration);",
+            "",
+            "cerr<<\"Execution Time: \"",
+            "<< h.count()  << \" hours \"",
+            "<< m.count()  << \" minutes \"",
+            "<< s.count()  << \" seconds \"",
+            "<< ms.count() << \" milliseconds\\n\";"
+        ],
+        "description": "Code to print the execution time of a section of code"
+    }
+}
