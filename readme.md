@@ -1,4 +1,4 @@
-# Cp-snippets
+# Cp-snippet
 
 This is an open-source project. It contains a collection of boilerplate code for competitive programming contests such as kickstart, code jam, CodeForces-contest, CodeChef-contest, etc. 
 
